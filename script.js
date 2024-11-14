@@ -6,7 +6,7 @@ const btn = document.querySelector("#btn");
 btn.addEventListener('click', promiseResolve);
 
 function promiseResolve() {
-	let name = nameInput.value
+	let name = nameInput.value;
 	let age = ageInput.value;
 let resolved = new Promise((resolve, reject)=>{
 	setTimeout(()=>{
